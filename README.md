@@ -1,3 +1,10 @@
+# You probably don't want this
+
+It turns out there are existing, more mature, implementations of this idea. Check out:
+
+* [pass](https://www.passwordstore.org/): Similar model, but based on PGP instead of `age`. Has been around for a while and has a lot of extensions available.
+* [pa](https://j3s.sh/thought/storing-passwords-with-age.html) and [passage](https://words.filippo.io/dispatches/passage/): Newer solutions that, like the scripts in this repo, are based on `age` instead of PGP.
+
 # Recovery code drop box
 
 This is a few simple shell scripts that implement an encrypted drop box. I made
